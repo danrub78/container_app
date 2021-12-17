@@ -10,7 +10,7 @@ pool:
   name: default
   vmImage: 'MBP-di-Dante'
  
-container: mcr.microsoft.com/dotnet/core/sdk:3.1
+container: mcr.microsoft.com/dotnet/sdk:5.0
    
 steps:
 - task: DotNetCoreCLI@2
